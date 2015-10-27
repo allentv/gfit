@@ -1,0 +1,21 @@
+{
+    "version": "0.1",
+    "name": "com.github.allentv.gfit",
+    "cordova_name": "Google Fit Plugin",
+    "description": "Google Fit Plugin for Ionic Projects",
+    "license": "MIT",
+    "repo": "github.com/allentv/gfit",
+    "issue": "",
+    "keywords": [
+        "cordova",
+        "googlefit",
+        "fitness",
+        "fit",
+        "health"
+    ],
+    "platforms": [
+        "android",
+    ],
+    "engines": [],
+    "englishdoc": ""
+}

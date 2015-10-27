@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="com.github.allentv.gfit"
+    version="0.2.11">
+    <name>GFitPlugin</name>
+    <description>Google Fit Plugin</description>
+    <license>MIT</license>
+    <keywords>cordova,googlefit,health,fitness,fit</keywords>
+    <repo>github.com/allentv/gfit</repo>
+    <issue></issue>
+
+    <js-module src="www/GFitPlugin.js" name="GFitPlugin">
+        <clobbers target="GFitPlugin" />
+    </js-module>
+
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="GFitPlugin" >
+                <param name="android-package" value="GFitPlugin"/>
+            </feature>
+        </config-file>
+        <source-file src="src/android/GFitPlugin.java" target-dir="src/" />
+    </platform>
+
+</plugin>
