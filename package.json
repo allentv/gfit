@@ -1,5 +1,5 @@
 {
-    "version": "0.1",
+    "version": 0.1,
     "name": "com.github.allentv.gfit",
     "cordova_name": "Google Fit Plugin",
     "description": "Google Fit Plugin for Ionic Projects",
@@ -14,7 +14,7 @@
         "health"
     ],
     "platforms": [
-        "android",
+        "android"
     ],
     "engines": [],
     "englishdoc": ""
