@@ -315,6 +315,8 @@ public class GFitPlugin extends CordovaPlugin {
      * @param data
      */
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        Log.i(TAG, "requestCode: " + requestCode);
+        Log.i(TAG, "resultCode: " + resultCode);
         if (requestCode == REQUEST_OAUTH) {
             authInProgress = false;
             if (resultCode == Activity.RESULT_OK) {
